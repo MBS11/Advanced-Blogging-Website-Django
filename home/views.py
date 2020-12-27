@@ -69,7 +69,7 @@ def handleSignUp(request):
         myuser.first_name= fname
         myuser.last_name= lname
         myuser.save()
-        messages.success(request, " Your iCoder has been successfully created")
+        messages.success(request, " Your iBLOGr has been successfully created")
         return redirect('home')
 
     else:
